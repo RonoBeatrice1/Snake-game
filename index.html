@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/png-transparent-green-snake-character-snakes-and-ladders-drawing-snake-game-animals-vertebrate.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div id="gameContainer">
+      <canvas id="gameCanvas" width="400" height="400"></canvas>
+      <div id="gameOverScreen">
+        <h2 id="gameOverMessage">Game Over!</h2>
+        <div id="congratsMessage">
+          <h3>Congratulations!</h3>
+          <p>You've achieved a new high score!</p>
+        </div>
+        <div id="gameOverOptions">
+          <button id="newGameBtn" class="game-option-btn">New Game</button>
+          <button id="highScoreBtn" class="game-option-btn">High Score</button>
+          <button id="quitGameBtn" class="game-option-btn">Quit Game</button>
+        </div>
+      </div>
+      <div id="countdownContainer">
+        <div id="countdownText"></div>
+      </div>
+      <!-- <div id="scoreContainer">
+        <span id="scoreLabel">Score:</span>
+        <span id="scoreValue">0</span>
+      </div> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
